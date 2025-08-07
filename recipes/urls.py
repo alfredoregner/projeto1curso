@@ -8,3 +8,7 @@ urlpatterns = [                 # Onde coloca todas as definições dos caminhos
     path('', views.recipe_list, name='recipe_list'), # Nova view para listar - Define a URL e nomeia ela como 'recipe_detail'
     path('<int:pk>/', views.recipe_detail, name='recipe_detail'), # Outras URLs do seu aplicativo
 ]
+
+
+
+# Superusuário: alfredo     senai103
